@@ -21,7 +21,6 @@ which demonstrates strong capabilities of high-quality long sequence motion mode
 
 ![main](static/images/main.svg)
 
-![motionmamba](static/images/MotionMamba_1.drawio.svg)
 
 
 </div>
