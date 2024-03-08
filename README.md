@@ -7,4 +7,21 @@
 
 [![Website](https://img.shields.io/badge/Website-Demo-fedcba?style=flat-square)](https://steve-zeyu-zhang.github.io/MotionMamba/) [![arXiv](https://img.shields.io/badge/arXiv-2311.06956-b31b1b?style=flat-square&logo=arxiv)]() [![OpenReview](https://img.shields.io/badge/OpenReview-8c1b13?style=flat-square)]() [![Papers With Code](https://img.shields.io/badge/Papers%20With%20Code-555555.svg?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjUxMiIgIGhlaWdodD0iNTEyIiA+PHBhdGggZD0iTTg4IDEyOGg0OHYyNTZIODh6bTE0NCAwaDQ4djI1NmgtNDh6bS03MiAxNmg0OHYyMjRoLTQ4em0xNDQgMGg0OHYyMjRoLTQ4em03Mi0xNmg0OHYyNTZoLTQ4eiIgc3Ryb2tlPSIjMjFDQkNFIiBmaWxsPSIjMjFDQkNFIj48L3BhdGg+PHBhdGggZD0iTTEwNCAxMDRWNTZIMTZ2NDAwaDg4di00OEg2NFYxMDR6bTMwNC00OHY0OGg0MHYzMDRoLTQwdjQ4aDg4VjU2eiIgc3Ryb2tlPSIjMjFDQkNFIiBmaWxsPSIjMjFDQkNFIj48L3BhdGg+PC9zdmc+)]() [![BibTeX](https://img.shields.io/badge/BibTeX-Citation-eeeeee?style=flat-square)]()
 
+_Human motion generation stands as a significant pursuit
+in generative computer vision, while achieving long-sequence and efficient motion generation remains challenging. Recent advancements in
+state space models (SSMs), notably Mamba, have showcased considerable promise in long sequence modeling with an efficient hardware-aware
+design, which appears to be a promising direction to build motion generation model upon it. Nevertheless, adapting SSMs to motion generation faces hurdles since the lack of a specialized design architecture to
+model motion sequence. To address these challenges, we propose **Motion
+Mamba**, a simple and efficient approach that presents the pioneering
+motion generation model utilized SSMs. Specifically, we design a Hierarchical Temporal Mamba (**HTM**) block to process temporal data by
+ensemble varying numbers of isolated SSM modules across a symmetric U-Net architecture aimed at preserving motion consistency between
+frames. We also design a Bidirectional Spatial Mamba (**BSM**) block to bidirectionally process latent poses, to enhance accurate motion generation within a temporal frame. Our proposed method achieves up to **50%** FID improvement and up to **4** times faster on the HumanML3D and
+KIT-ML datasets compared to the previous best diffusion-based method,
+which demonstrates strong capabilities of high-quality long sequence motion modeling and real-time human motion generation._
+
+![main](static/images/main.svg)
+
+![motionmamba](static/images/MotionMamba_1.drawio.svg)
+
+
 </div>
