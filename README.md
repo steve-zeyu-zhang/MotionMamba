@@ -21,6 +21,4 @@ frames. We also design a Bidirectional Spatial Mamba (**BSM**) block to bidirect
 KIT-ML datasets compared to the previous best diffusion-based method,
 which demonstrates strong capabilities of high-quality long sequence motion modeling and real-time human motion generation._
 
-![main](static/images/main.svg)
-
-![block](static/images/block.svg)
+![combine](static/images/combine.svg)
