@@ -23,3 +23,4 @@ which demonstrates strong capabilities of high-quality long sequence motion mode
 
 ![main](static/images/main.svg)
 
+![block](static/images/block.svg)
