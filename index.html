@@ -52,21 +52,35 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">Motion Mamba: Efficient and Long Sequence Motion Generation with Hierarchical and Bidirectional Selective SSM</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://steve-zeyu-zhang.github.io/" target="_blank">Zeyu Zhang</a><sup>1</sup><sup>2</sup><sup>*</sup><sup>†</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="https://www.linkedin.com/in/akideliu/" target="_blank">Liyang Liu</a><sup>1</sup><sup>*</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="https://mbzuai.ac.ae/study/faculty/ian-reid/" target="_blank">Ian Reid</a><sup>3</sup>,</span>
+                    <span class="author-block">
+                      <a href="http://users.cecs.anu.edu.au/~hartley/" target="_blank">Richard Hartley</a><sup>2</sup>,</span>
+                      <span class="author-block">
+                        <a href="https://bohanzhuang.github.io/" target="_blank">Bohan Zhuang</a><sup>1</sup>,</span>
+                  <span class="author-block">
+                    <a href="https://ha0tang.github.io/" target="_blank">Hao Tang</a><sup>4</sup><sup>✉</sup>
                   </span>
                   </div>
-
+                  <p style="height: 10px;">&nbsp;</p> 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block"><font size="4"><sup>1</sup> <a href="https://www.monash.edu/" target="_blank">Monash University</a></font></span>
+                    <span class="author-block"><font size="4"><sup>2</sup> <a href="https://www.anu.edu.au/" target="_blank">The Australian National University</a></font></span><br>
+                    <span class="author-block"><font size="4"><sup>3</sup> <a href="https://mbzuai.ac.ae/" target="_blank">Mohamed bin Zayed University of Artificial Intelligence</a></font></span>
+                    <span class="author-block"><font size="4"><sup>4</sup> <a href="https://www.cmu.edu/" target="_blank">Carnegie Mellon University</a></font></span><br>
+                    <p style="height: 10px;">&nbsp;</p> 
+                    <span class="author-block"><font size="5"><b><a href="" target="_blank">Under Review</a></b></font>
+                    </span><br>
+                    <span class="eql-cntrb"><small><sup>*</sup>Equal Contribution.</small></span>
+                    <span class="eql-cntrb"><small><sup>✉</sup>Corresponding author.</small></span><br>
+                    <span class="eql-cntrb"><small><sup>†</sup>Work done while being a research assistant at Monash University.</small></span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -148,7 +162,24 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Human motion generation stands as a significant pursuit in generative computer vision, 
+            while achieving long-sequence and efficient motion generation remains challenging. 
+            Recent advancements in state space models (SSMs), notably Mamba, 
+            have showcased considerable promise in long sequence modeling with an efficient 
+            hardware-aware design, which appears to be a promising direction to build motion 
+            generation model upon it. Nevertheless, adapting SSMs to motion generation 
+            faces hurdles since the lack of a specialized design architecture to model motion sequence. 
+            To address these challenges, we propose <b>Motion Mamba</b>, 
+            a simple and efficient approach that presents the pioneering motion 
+            generation model utilized SSMs. Specifically, we design a <b>Hierarchical Temporal Mamba</b> 
+            (<b>HTM</b>) block to process temporal data by ensemble varying numbers of isolated 
+            SSM modules across a symmetric U-Net architecture aimed at preserving motion 
+            consistency between frames. We also design a <b>Bidirectional Spatial Mamba</b> (<b>BSM</b>) 
+            block to bidirectionally process latent poses, to enhance accurate motion generation 
+            within a temporal frame. Our proposed method achieves up to <b>50%</b> FID improvement and up to 
+            <b>4</b> times faster on the HumanML3D and KIT-ML datasets compared to the previous best 
+            diffusion-based method, which demonstrates strong capabilities of high-quality long 
+            sequence motion modeling and real-time human motion generation.
           </p>
         </div>
       </div>
@@ -159,33 +190,29 @@
 
 
 <!-- Image carousel -->
-<section class="hero is-small">
+<!-- <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
-        <!-- Your image here -->
         <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           First image description.
         </h2>
       </div>
       <div class="item">
-        <!-- Your image here -->
         <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Second image description.
         </h2>
       </div>
       <div class="item">
-        <!-- Your image here -->
         <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
          Third image description.
        </h2>
      </div>
      <div class="item">
-      <!-- Your image here -->
       <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
         Fourth image description.
@@ -194,30 +221,28 @@
   </div>
 </div>
 </div>
-</section>
+</section> -->
 <!-- End image carousel -->
 
 
 
 
 <!-- Youtube video -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <!-- Paper video. -->
       <h2 class="title is-3">Video Presentation</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
           <div class="publication-video">
-            <!-- Youtube embed code here -->
             <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End youtube video -->
 
 
@@ -225,25 +250,22 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
+      <h2 class="title is-3">Visualization</h2>
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1">
           <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
             <source src="static/videos/carousel1.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video2">
           <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
             <source src="static/videos/carousel2.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video3">
           <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
             <source src="static/videos/carousel3.mp4"
             type="video/mp4">
           </video>
@@ -260,7 +282,7 @@
 
 
 <!-- Paper poster -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
@@ -270,20 +292,22 @@
         
       </div>
     </div>
-  </section>
+  </section> -->
 <!--End paper poster -->
+
+
 
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>Coming Soon</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
 
-
+<!-- 
   <footer class="footer">
   <div class="container">
     <div class="columns is-centered">
@@ -300,7 +324,7 @@
       </div>
     </div>
   </div>
-</footer>
+</footer> -->
 
 <!-- Statcounter tracking code -->
   
