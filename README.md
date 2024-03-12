@@ -24,3 +24,9 @@ KIT-ML datasets compared to the previous best diffusion-based method,
 which demonstrates strong capabilities of high-quality long sequence motion modeling and real-time human motion generation._
 
 ![combine](static/images/combine.svg)
+
+## Acknowledgements
+
+- [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://github.com/state-spaces/mamba)
+
+- [Motion Latent Diffusion: Executing your Commands via Motion Diffusion in Latent Space](https://github.com/ChenFengYe/motion-latent-diffusion)
