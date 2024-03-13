@@ -125,6 +125,11 @@ eql-cntrb
   margin: 0;
 }
 
+.results-carousel .video-description {
+  font-size: 20px;
+  text-align: center; /* Optional: Center text within the container */
+}
+
 .slider-pagination .slider-page {
   background: #000000;
 }
