@@ -25,6 +25,8 @@ which demonstrates strong capabilities of high-quality long sequence motion mode
 
 ![combine](static/images/combine.svg)
 
+## Stay tuned, project website will be ready soon!
+
 ## Acknowledgements
 
 - [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://github.com/state-spaces/mamba)
