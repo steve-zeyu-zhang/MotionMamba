@@ -127,7 +127,7 @@ eql-cntrb
 
 .results-carousel .video-description {
   font-size: 20px;
-  text-align: center; /* Optional: Center text within the container */
+  text-align: center;
 }
 
 .slider-pagination .slider-page {
