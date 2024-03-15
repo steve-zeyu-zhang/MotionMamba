@@ -27,7 +27,9 @@ which demonstrates strong capabilities of high-quality long sequence motion mode
 
 ## News
 
-<b>(11/16/2023)</b> &#127881; Our paper has been promoted by <a href="https://wx.zsxq.com/dweb2/index/topic_detail/1522541851241522"><b>CVer</b></a>.
+<b>(3/13/2023)</b> &#127881; Our paper has been featured in <a href="https://twitter.com/_akhaliq/status/1767750847239262532"><b>Daily Papers</b></a>.
+
+<b>(3/13/2023)</b> &#127881; Our paper has been promoted by <a href="https://wx.zsxq.com/dweb2/index/topic_detail/1522541851241522"><b>CVer</b></a>.
 
 ## Acknowledgements
 
