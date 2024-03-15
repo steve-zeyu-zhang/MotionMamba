@@ -25,6 +25,10 @@ which demonstrates strong capabilities of high-quality long sequence motion mode
 
 ![combine](static/images/combine.svg)
 
+## News
+
+<b>(11/16/2023)</b> &#127881; Our paper has been promoted by <a href="https://wx.zsxq.com/dweb2/index/topic_detail/1522541851241522"><b>CVer</b></a>.
+
 ## Acknowledgements
 
 - [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://github.com/state-spaces/mamba)
