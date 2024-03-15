@@ -143,4 +143,13 @@ eql-cntrb
   margin: 0 auto; 
 }
 
+.image-container {
+  margin: 0 auto;
+}
+
+.image-container .image-description {
+  font-size: 16px;
+  width: 60%;
+  text-align: center;
+}
 
