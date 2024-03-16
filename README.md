@@ -36,6 +36,17 @@ which demonstrates strong capabilities of high-quality long sequence motion mode
 
 <b>(3/13/2024)</b> &#127881; Our paper has been promoted by <a href="https://wx.zsxq.com/dweb2/index/topic_detail/1522541851241522"><b>CVer</b></a>!
 
+## Citation
+
+```
+@article{zhang2024motion,
+  title={Motion Mamba: Efficient and Long Sequence Motion Generation with Hierarchical and Bidirectional Selective SSM},
+  author={Zhang, Zeyu and Liu, Akide and Reid, Ian and Hartley, Richard and Zhuang, Bohan and Tang, Hao},
+  journal={arXiv preprint arXiv:2403.07487},
+  year={2024}
+}
+```
+
 ## Acknowledgements
 
 - [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://github.com/state-spaces/mamba)
