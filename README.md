@@ -30,7 +30,7 @@ which demonstrates strong capabilities of high-quality long sequence motion mode
 
 ## News
 
-<b>(3/15/2024)</b> &#127881; Our paper has been promoted by <a href="https://www.marktechpost.com/2024/03/15/meet-motion-mamba-a-novel-machine-learning-framework-designed-for-efficient-and-extended-sequence-motion-generation/"><b>MarkTechPost</b></a>!
+<b>(3/15/2024)</b> &#127881; Our paper has been promoted by <a href="https://twitter.com/Marktechpost/status/1768770427680424176"><b>MarkTechPost</b></a>!
 
 <b>(3/13/2024)</b> &#127881; Our paper has been featured in <a href="https://twitter.com/_akhaliq/status/1767750847239262532"><b>Daily Papers</b></a>!
 
