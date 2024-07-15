@@ -1,4 +1,4 @@
-<div align="center"><h1> Motion Mamba: Efficient and Long Sequence Motion Generation with Hierarchical and Bidirectional Selective SSM<br>
+<div align="center"><h1> Motion Mamba: Efficient and Long Sequence Motion Generation<br>
 <sub><sup><a href="https://eccv2024.ecva.net/">ECCV 2024</a></sup></sub>
 </h1>
 
