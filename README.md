@@ -19,7 +19,7 @@ design, which appears to be a promising direction to build motion generation mod
 model motion sequence. To address these challenges, we propose **Motion
 Mamba**, a simple and efficient approach that presents the pioneering
 motion generation model utilized SSMs. Specifically, we design a **Hierarchical Temporal Mamba** (**HTM**) block to process temporal data by
-ensemble varying numbers of isolated SSM modules across a symmetric U-Net architecture aimed at preserving motion consistency between
+ensembling varying numbers of isolated SSM modules across a symmetric U-Net architecture aimed at preserving motion consistency between
 frames. We also design a **Bidirectional Spatial Mamba** (**BSM**) block to bidirectionally process latent poses, to enhance accurate motion generation within a temporal frame. Our proposed method achieves up to **50%** FID improvement and up to **4** times faster on the HumanML3D and
 KIT-ML datasets compared to the previous best diffusion-based method,
 which demonstrates strong capabilities of high-quality long sequence motion modeling and real-time human motion generation._
