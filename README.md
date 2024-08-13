@@ -31,7 +31,7 @@ which demonstrates strong capabilities of high-quality long sequence motion mode
 
 ## News
 
-<b>(07/22/2024)</b> &#127881; Our paper was invited for a talk at <a href="https://www.mihoyo.com/"><b>miHoYo</b></a>. You can find our slides <a href="static/pdfs/Motion_Mamba_Slides_miHoYo.pdf"><b>here</b></a>!
+<b>(07/22/2024)</b> &#127881; Our paper was invited for a talk at <a href="https://www.mihoyo.com/"><b>miHoYo</b></a>. You can find our slides <a href="https://steve-zeyu-zhang.github.io/pdf/Motion_Mamba_Slides_miHoYo.pdf"><b>here</b></a>!
 
 <b>(07/05/2024)</b> &#127881; Our paper has been highlighted twice by <a href="https://wx.zsxq.com/dweb2/index/topic_detail/5122458815888184"><b>CVer</b></a>!
 
