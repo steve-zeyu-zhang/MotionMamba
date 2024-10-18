@@ -46,11 +46,13 @@ which demonstrates strong capabilities of high-quality long sequence motion mode
 ## Citation
 
 ```
-@article{zhang2024motion,
-  title={Motion Mamba: Efficient and Long Sequence Motion Generation with Hierarchical and Bidirectional Selective SSM},
+@inproceedings{zhang2025motion,
+  title={Motion Mamba: Efficient and Long Sequence Motion Generation},
   author={Zhang, Zeyu and Liu, Akide and Reid, Ian and Hartley, Richard and Zhuang, Bohan and Tang, Hao},
-  journal={arXiv preprint arXiv:2403.07487},
-  year={2024}
+  booktitle={European Conference on Computer Vision},
+  pages={265--282},
+  year={2025},
+  organization={Springer}
 }
 ```
 
